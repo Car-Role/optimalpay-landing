@@ -172,9 +172,12 @@
                 <a href="#" class="text-sm text-slate-400 hover:text-white transition-colors">Partnership</a>
                 <a href="#" class="text-sm text-slate-400 hover:text-white transition-colors">About</a>
             </div>
-            <div class="flex items-center gap-6">
+            <div class="flex items-center gap-4 sm:gap-6">
                 <a href="#" class="hidden sm:block text-sm font-medium text-slate-300 hover:text-white transition-colors">Login</a>
-                <a href="#" class="bg-cyan-200 text-cyan-950 px-5 py-2 rounded-full text-sm font-medium hover:bg-cyan-100 transition-colors shadow-[0_0_15px_rgba(165,243,252,0.3)]">Sign up</a>
+                <a href="#" class="bg-cyan-200 text-cyan-950 px-4 sm:px-5 py-2 rounded-full text-sm font-medium hover:bg-cyan-100 transition-colors shadow-[0_0_15px_rgba(165,243,252,0.3)]">Sign up</a>
+                <button class="md:hidden p-2 text-slate-400 hover:text-white transition-colors">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -189,14 +192,14 @@
                     <button class="bg-cyan-200 text-cyan-950 px-8 py-3.5 rounded-full font-medium hover:bg-cyan-100 transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(165,243,252,0.2)]">Download the app</button>
                     <button class="group border border-slate-700 text-slate-200 px-8 py-3.5 rounded-full font-medium hover:bg-slate-800 transition-all flex items-center gap-2">Learn More <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i></button>
                 </div>
-                <div class="hero-stats flex gap-16 mb-10">
-                    <div><p class="text-sm text-slate-500 font-medium mb-2">Businesses</p><p class="text-4xl md:text-5xl font-medium text-white tracking-tight">65+</p></div>
-                    <div><p class="text-sm text-slate-500 font-medium mb-2">Daily transactions</p><p class="text-4xl md:text-5xl font-medium text-white tracking-tight">250+</p></div>
+                <div class="hero-stats flex gap-8 sm:gap-16 mb-10">
+                    <div><p class="text-sm text-slate-500 font-medium mb-2">Businesses</p><p class="text-3xl sm:text-4xl md:text-5xl font-medium text-white tracking-tight">65+</p></div>
+                    <div><p class="text-sm text-slate-500 font-medium mb-2">Daily transactions</p><p class="text-3xl sm:text-4xl md:text-5xl font-medium text-white tracking-tight">250+</p></div>
                 </div>
                 <!-- Trusted By Section -->
                 <div class="hero-trusted pt-8 border-t border-white/10">
                     <p class="text-xs text-slate-600 uppercase tracking-wider mb-5">Trusted by teams at</p>
-                    <div class="flex items-center gap-8 opacity-50">
+                    <div class="flex flex-wrap items-center gap-x-6 gap-y-3 sm:gap-8 opacity-50">
                         <div class="flex items-center gap-2 text-slate-400 hover:text-slate-300 transition-colors">
                             <i data-lucide="building-2" class="w-5 h-5"></i>
                             <span class="text-sm font-medium">Stripe</span>
@@ -216,9 +219,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex w-full h-[600px] relative items-center justify-center">
+            <div class="flex w-full h-[500px] sm:h-[600px] relative items-center justify-center">
                 <div class="hero-glow absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-cyan-500/20 blur-[100px] rounded-full"></div>
-                <div class="hero-phone border-[6px] overflow-hidden z-20 animate-float bg-[#080808] w-[300px] h-[600px] border-[#1e1e1e] ring-white/10 ring-1 rounded-[3rem] relative shadow-2xl">
+                <div class="hero-phone border-[6px] overflow-hidden z-20 animate-float bg-[#080808] w-[260px] sm:w-[300px] h-[500px] sm:h-[600px] border-[#1e1e1e] ring-white/10 ring-1 rounded-[2.5rem] sm:rounded-[3rem] relative shadow-2xl">
                     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-[#1e1e1e] rounded-b-2xl z-30"></div>
                     <div class="relative h-full w-full flex flex-col bg-gradient-to-b from-[#0f0f0f] to-[#050505]">
                         <div class="flex text-slate-400 pt-12 px-6 pb-4 items-center justify-between">
@@ -250,13 +253,13 @@
                         <div class="mt-auto p-6"><button class="w-full py-3.5 bg-white text-black rounded-xl font-medium text-sm">View Receipt</button></div>
                     </div>
                 </div>
-                <div class="hero-card-1 absolute top-24 right-8 glass-card p-4 rounded-2xl shadow-2xl border border-white/10 flex items-center gap-4 w-64 animate-float-delayed z-10">
+                <div class="hero-card-1 absolute top-24 right-4 sm:right-8 glass-card p-3 sm:p-4 rounded-2xl shadow-2xl border border-white/10 flex items-center gap-3 sm:gap-4 w-56 sm:w-64 animate-float-delayed z-10">
                     <div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-blue-600 flex items-center justify-center text-white text-xs font-medium">SJ</div>
                     <div><p class="text-xs text-slate-400 mb-0.5">Sarah J. received</p><p class="text-sm font-medium text-white">+$1,250.00 USD</p></div>
                 </div>
                 
                 <!-- Split with Friends floating card -->
-                <div class="hero-card-2 absolute bottom-32 -left-4 md:-left-12 lg:left-0 glass-card p-4 pr-6 rounded-2xl shadow-2xl border border-white/10 animate-float-delayed-2 z-30">
+                <div class="hero-card-2 absolute bottom-32 left-0 sm:-left-4 md:-left-12 lg:left-0 glass-card p-3 sm:p-4 pr-4 sm:pr-6 rounded-2xl shadow-2xl border border-white/10 animate-float-delayed-2 z-30">
                     <div class="flex items-start gap-3">
                         <div class="p-2 bg-indigo-500/10 rounded-lg text-indigo-400">
                             <i data-lucide="users" class="w-5 h-5"></i>
@@ -395,7 +398,7 @@
                         </div>
                     </div>
                     <!-- Left: Card -->
-                    <div class="w-full lg:text-right lg:pr-20 order-2 lg:order-1" data-animate="slide-left">
+                    <div class="w-full lg:text-right lg:pr-20 order-1 lg:order-1" data-animate="slide-left">
                         <div class="glass-card rounded-3xl p-8 lg:p-10 border border-white/5 hover:border-cyan-500/30 transition-all duration-500 group relative overflow-hidden hover-tilt hover-glow">
                             <div class="absolute top-0 right-0 w-40 h-40 bg-cyan-500/10 blur-3xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                             <div class="relative">
@@ -417,7 +420,7 @@
                         </div>
                     </div>
                     <!-- Right: Number -->
-                    <div class="w-full lg:pl-20 order-1 lg:order-2 flex items-center lg:justify-start" data-animate="slide-right">
+                    <div class="w-full lg:pl-20 order-2 lg:order-2 flex items-center lg:justify-start" data-animate="slide-right">
                         <span class="text-[100px] lg:text-[160px] font-bold leading-none bg-gradient-to-b from-white/10 to-transparent bg-clip-text text-transparent select-none">01</span>
                     </div>
                 </div>
@@ -469,7 +472,7 @@
                         </div>
                     </div>
                     <!-- Left: Card -->
-                    <div class="w-full lg:text-right lg:pr-20 order-2 lg:order-1" data-animate="slide-left">
+                    <div class="w-full lg:text-right lg:pr-20 order-1 lg:order-1" data-animate="slide-left">
                         <div class="glass-card rounded-3xl p-8 lg:p-10 border border-white/5 hover:border-emerald-500/30 transition-all duration-500 group relative overflow-hidden hover-tilt hover-glow">
                             <div class="absolute top-0 right-0 w-40 h-40 bg-emerald-500/10 blur-3xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                             <div class="relative">
@@ -490,7 +493,7 @@
                         </div>
                     </div>
                     <!-- Right: Number -->
-                    <div class="w-full lg:pl-20 order-1 lg:order-2 flex items-center lg:justify-start" data-animate="slide-right">
+                    <div class="w-full lg:pl-20 order-2 lg:order-2 flex items-center lg:justify-start" data-animate="slide-right">
                         <span class="text-[100px] lg:text-[160px] font-bold leading-none bg-gradient-to-b from-white/10 to-transparent bg-clip-text text-transparent select-none">03</span>
                     </div>
                 </div>
@@ -762,8 +765,8 @@
         // Trigger when element is well into the viewport for better visibility
         const observerOptions = {
             root: null,
-            rootMargin: '0px 0px -200px 0px', // Trigger 200px before bottom of viewport
-            threshold: 0.3 // Element must be 30% visible
+            rootMargin: '0px 0px -175px 0px', // Trigger 175px before bottom of viewport
+            threshold: 0.25 // Element must be 25% visible
         };
         
         const observer = new IntersectionObserver((entries) => {
